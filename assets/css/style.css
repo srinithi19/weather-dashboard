@@ -1,0 +1,81 @@
+* {
+    font-family: "Kaisei HarunoUmi", serif;
+}
+header {
+    margin-bottom: 1rem;
+    background: linear-gradient(
+      90deg,
+      rgba(149, 185, 222, 1) 0%,
+      rgba(57, 90, 136, 1) 31%,
+      rgba(53, 113, 143, 1) 73%,
+      rgba(149, 185, 222, 1) 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 50px;
+  }
+  h1 {
+    color: white;
+    font-size:40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  aside section{
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    width: 30%;
+    float: left;
+    padding: 10px;
+  }
+ 
+  .currentWeather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(28, 105, 115);
+  }
+  .futureForecast {
+    display: flex;
+    flex-direction: row;
+  }
+  #searchCity {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: rgb(19, 8, 121);
+  }
+  input[type="text"] {
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-block: 0.5rem;
+  }
+  button {
+    border-radius: 0.5rem;
+    background-color: rgba(149, 185, 222, 1);
+    color: rgb(12, 5, 81);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  hr {
+    width: 100%;
+    border-color: black;
+    margin-bottom: 1rem;
+  }
+  li {
+    margin-bottom: 2rem;
+  }
+  p {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
