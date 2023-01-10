@@ -62,8 +62,8 @@ header {
   }
   button {
     border-radius: 0.5rem;
-    background-color: rgba(149, 185, 222, 1);
-    color: rgb(12, 5, 81);
+    background-color: rgb(43, 83, 124);
+    color: white;
     padding: 0.5rem;
     margin-bottom: 1rem;
   }
