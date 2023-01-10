@@ -38,11 +38,16 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(28, 105, 115);
+    color: rgb(3, 29, 54);
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
   }
   .futureForecast {
     display: flex;
     flex-direction: row;
+    color: rgb(28, 105, 115);
+
   }
   #searchCity {
     display: flex;
@@ -62,10 +67,11 @@ header {
   }
   button {
     border-radius: 0.5rem;
-    background-color: rgb(43, 83, 124);
+    background-color: rgb(99, 112, 125);
     color: white;
     padding: 0.5rem;
     margin-bottom: 1rem;
+    font-size: 20px;
   }
   hr {
     width: 100%;
