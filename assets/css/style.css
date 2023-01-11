@@ -98,10 +98,8 @@ header {
     border: 1px solid black;
     padding: 5px;
     margin: 5px;
-    /* margin-left: 40px; */
-    background-color: rgb(75, 137, 176);
-    /* color: white; */
-    color: rgb(3, 29, 54);
+    color: white;
+    background-color: rgb(61, 99, 149);
     font-size: 20px;
     
   }
